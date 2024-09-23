@@ -8,7 +8,7 @@ on:
 jobs:
 
   build_push_supermario_docker_image:
-    runs-on: CentOS 8
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
